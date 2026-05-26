@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36603.0 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "contackManeger", "contackManeger\contackManeger.csproj", "{0E7CDE4C-2F31-43E1-ADEA-FB3785CB5EAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManager.Tests", "ContactManager.Tests\ContactManager.Tests.csproj", "{44D0ADD8-3AE2-4C0E-B8C1-EF6911015464}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0E7CDE4C-2F31-43E1-ADEA-FB3785CB5EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E7CDE4C-2F31-43E1-ADEA-FB3785CB5EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E7CDE4C-2F31-43E1-ADEA-FB3785CB5EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D0ADD8-3AE2-4C0E-B8C1-EF6911015464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D0ADD8-3AE2-4C0E-B8C1-EF6911015464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D0ADD8-3AE2-4C0E-B8C1-EF6911015464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D0ADD8-3AE2-4C0E-B8C1-EF6911015464}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

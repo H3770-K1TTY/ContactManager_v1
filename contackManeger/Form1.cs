@@ -1,4 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
 using System.Windows.Forms;
 
 namespace ContactManager
@@ -31,7 +37,7 @@ namespace ContactManager
             if (string.IsNullOrWhiteSpace(nameTextBox.Text) ||
                 string.IsNullOrWhiteSpace(phoneTextBox.Text))
             {
-                MessageBox.Show("Заполните все поля!");
+                MessageBox.Show("Заполните все поля");
                 return;
             }
 
@@ -51,7 +57,7 @@ namespace ContactManager
         {
             if (contactsListBox.SelectedItem == null)
             {
-                MessageBox.Show("Выберите контакт!");
+                MessageBox.Show("Выберите контакт");
                 return;
             }
 
@@ -74,6 +80,11 @@ namespace ContactManager
             {
                 contactsListBox.Items.Add(contact);
             }
+        }
+
+        private void nameTextBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
