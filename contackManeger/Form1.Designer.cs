@@ -73,6 +73,7 @@
             this.nameTextBox.Name = "nameTextBox";
             this.nameTextBox.Size = new System.Drawing.Size(139, 26);
             this.nameTextBox.TabIndex = 3;
+            this.nameTextBox.TextChanged += new System.EventHandler(this.nameTextBox_TextChanged);
             // 
             // phoneTextBox
             // 
@@ -105,6 +106,7 @@
             this.addButton.TabIndex = 7;
             this.addButton.Text = "Добавить";
             this.addButton.UseVisualStyleBackColor = true;
+            this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
             // removeButton
             // 
@@ -114,6 +116,7 @@
             this.removeButton.TabIndex = 8;
             this.removeButton.Text = "Удалить";
             this.removeButton.UseVisualStyleBackColor = true;
+            this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
             // searchButton
             // 
@@ -123,7 +126,7 @@
             this.searchButton.TabIndex = 9;
             this.searchButton.Text = "Поиск";
             this.searchButton.UseVisualStyleBackColor = true;
-            this.searchButton.Click += new System.EventHandler(this.searchButton_Click_1);
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
             // Form1
             // 
